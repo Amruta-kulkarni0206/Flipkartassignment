@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <test name="openflipcarttest">
+    <classes>
+   <class name="flipcarttests.openflipcarttest"/>
+     
+      </classes>
+  </test> <!-- Test -->
+  
+   <test name="Compareproducttest">
+    <classes>
+      <class name="flipcarttests.Compareproducttest"/>
+     
+      </classes>
+  </test> <!-- Test -->
+    
+    
+    <test name="Addtocart">
+    <classes>
+      <class name="flipcarttests.Addtocart"/>
+     
+      </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
